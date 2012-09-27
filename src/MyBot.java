@@ -91,7 +91,7 @@ public class MyBot extends Bot {
         food();
         defense();
         explore();
-		hillRazers();
+	hillRazers();
         analysis();        
                
         // execute orders.
@@ -328,7 +328,6 @@ public class MyBot extends Bot {
         }    	
     }
     
-    // BUGGY!!! NEED TO FIX!
     private void defense() {
     	Ants ai = getAnts();    	
         // sort by nearest to base to pick defenders.
